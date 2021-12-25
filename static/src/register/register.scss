@@ -1,0 +1,68 @@
+.register-container {
+    margin-left: 140px;
+    // text-align: center;
+    >h3 {
+        font-size: 35px;
+        color: aqua;
+    }
+    .register-content {
+        >ul {
+            >li {
+                margin: 15px 0;
+                >p {
+                    display: flex;
+                    align-items: center;
+                    >span {
+                        width: 80px;
+                    }
+                    >input {
+                        width: 300px;
+                        height: 40px;
+                        border: 1px solid aqua;
+                        border-radius: 5px;
+                    }
+                }
+                >.err {
+                    line-height: 30px;
+                    margin-left: 80px;
+                    height: 30px;
+                    color: red;
+                }
+            }
+        }
+    }
+    .encrypted {
+        >h3 {
+            font-size: 28px;
+            color: aquamarine;
+            margin: 15px 0;
+        }
+        >section {
+            line-height: 60px;
+            >select {
+                width: 200px;
+                height: 30px;
+            }
+            >p {
+                >input {
+                    width: 400px;
+                    height: 40px;
+                    line-height: 40px;
+                    border: 1px solid aqua;
+                    border-radius: 10px;
+                }
+            }
+        }
+    }
+    >p {
+        #submit {
+            width: 300px;
+            height: 60px;
+            background-color: aqua;
+            color: #fff;
+            font-size: 30px;
+            border-radius: 20px;
+            margin-top: 50px;
+        }
+    }
+}

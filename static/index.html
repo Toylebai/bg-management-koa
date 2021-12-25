@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>后台管理系统</title>
+    <link rel="stylesheet" href="./src/common/reset.css">
+    <link rel="stylesheet" href="./src/view/style.css">
+</head>
+
+<body>
+    <div id="app">
+        <div class="bg">
+            <div class="container">
+                <header>
+                    <h3>登录</h3>
+                    <span class="del">×</span>
+                </header>
+                <section>
+                    <div class="userIpt">
+                        <p>
+                            <span>用户名：</span>
+                            <input type="text" id="user" placeholder="请输入用户名">
+                        </p>
+                    </div>
+                    <div class=" err" id="errUser">
+
+                    </div>
+                    <div class="pwdIpt">
+                        <span>密码&nbsp;&nbsp;&nbsp;&nbsp;：</span>
+                        <p>
+                            <input type="password" id="pwd" placeholder="请输入密码">
+                            <span id="showPassword">🕶</span>
+
+                        </p>
+                    </div>
+                    <div class="err" id="errPwd">
+
+                    </div>
+                </section>
+                <div class="modpwd">
+                    <a href="">忘记密码？</a>
+                </div>
+                <footer>
+                    <p>
+                        <button id="login">登录</button>
+                        <button id="register">注册</button>
+                    </p>
+                </footer>
+            </div>
+        </div>
+    </div>
+
+</body>
+<script src="./src/js/jquery.min.js"></script>
+<script src="./src/js/index.js"></script>
+<script src="./src/view/index.js"></script>
+
+</html>

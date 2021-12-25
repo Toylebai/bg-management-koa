@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="./src/common/reset.css">
+    <link rel="stylesheet" href="./src/upload/style.css">
+</head>
+
+<body>
+    <div class="list-container">
+        <header class="list-header">
+            <h3>后台管理系统</h3>
+            <p>
+                <span>欢迎你：<b class="user"></b></span>
+                <button class="exit">退出登录</button>
+            </p>
+        </header>
+        <section class="list-content">
+            <ul class="list-tab">
+                <li class="list">列表</li>
+                <li class="upload">上传</li>
+            </ul>
+            <div class="list-cont">
+                <ul>
+                    <li>
+                        <span>标题：</span>
+                        <p>
+                            <input type="text" id="title">
+                        </p>
+                    </li>
+                    <li>
+                        <span>作者：</span>
+                        <p>
+                            <input type="text" id="author">
+                        </p>
+                    </li>
+                    <li>
+                        <span>内容：</span>
+                        <p>
+                            <input type="text" id="content">
+                        </p>
+                    </li>
+                    <li>
+                        <span>素材：</span>
+                        <p>
+                            <label for="files" id="fileLabel">
+                                 + 
+                            <img id="imgs" src="" alt="">
+                            </label>
+                            <input type="file" id="files" multiple>
+                        </p>
+                    </li>
+                    <li>
+                        <button id='submit'>提交</button>
+                    </li>
+                </ul>
+            </div>
+        </section>
+    </div>
+</body>
+<script src="./src/js/jquery.min.js"></script>
+<script src="./src/upload/upload.js"></script>
+
+</html>
